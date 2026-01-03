@@ -23,8 +23,8 @@ void ch3Drill_01()
             break;
         }
 
-        int a = std::stoi(input1);
-        int b = std::stoi(input2);
+        double a = std::stod(input1);
+        double b = std::stod(input2);
 
         if (a > b)
         {
