@@ -26,7 +26,18 @@ void ch3Drill_01()
         int a = std::stoi(input1);
         int b = std::stoi(input2);
 
-        std::cout << "Your two ints are " << a << " and " << b << ". \n";
+        if (a > b)
+        {
+            std::cout << a << ", your first number, is greater than " << b << ".\n";
+        }
+        else if (a < b)
+        {
+            std::cout << b << ", your second number, is greater than " << a << ".\n";
+        }
+        else
+        {
+            std::cout << a << " and " << b << " are equal.\n";
+        }
 
     }
 }
